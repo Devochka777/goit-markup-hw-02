@@ -1,0 +1,225 @@
+
+
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background: #E5E5E5;
+}
+
+/*----------------------------------------------------------HEADER-------------*/
+.header {
+}
+.header-novigation {
+}
+
+.header-logo {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+}
+
+.header-list .header-link 
+{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
+    /* NAVY BLUE */
+    color: #2E2F42;
+}
+.header-list .header-link:hover,
+.header-list .header-link:focus {color:#404BBF;}
+
+    
+
+.header-contacts {
+}
+
+.header-adress {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+/* SLATE */
+color: #434455;
+}
+.header-adress:is(:hover,:focus)
+{
+    color: #404BBF;
+}
+
+.header-tel {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+/* SLATE */
+color: #434455;
+}
+/*--------------------------------COMMERCIAL------------------------------*/
+.commercial {
+
+font-size: 56px;
+line-height: 1.07;
+/* or 107% */
+text-align: center;
+letter-spacing: 0.02em;
+color:#ffffff;
+}
+
+
+.btn {
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+
+color:#4D5AE5;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+}
+
+.btn {
+    cursor:pointer
+}   
+
+.btn:is(:hover,:focus)
+{background:#404BBF;}
+
+/*------------------------------PECULISRITIES--------------------*/
+.peculiarities-list {
+}
+.peculiarities-item {
+    
+}
+.peculiarities-subtitle {
+
+font-size: 20px;
+line-height: 1.2;
+/* identical to box height, or 120% */
+letter-spacing: 0.02em;
+/* NAVY BLUE */
+color:#2E2F42;
+}
+.peculiarities-text {
+
+font-size: 16px;
+line-height: 1.5;
+/* or 150% */
+letter-spacing: 0.02em;
+/* SLATE */
+color:#434455;
+}
+/*------------------------------------------BOING-----------------------*/
+.boing{
+
+}
+.boing-subtitle {
+
+font-size: 36px;
+line-height: 1.11;
+/* identical to box height, or 111% */
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+/* NAVY BLUE */
+color:#2E2F42;
+}
+
+.boing-list {
+}
+.boind-item {
+}
+/*--------------------------------------------------TEAM---------------------------*/
+.team{
+
+}
+.team-subtitle {
+font-size: 36px;
+line-height: 1.11;
+/* identical to box height, or 111% */
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+/* NAVY BLUE */
+
+color:#2E2F42;
+}
+.team-list {
+}
+.team-item {
+}
+.team-foto {
+}
+.team-surname {
+font-size: 20px;
+line-height: 1.2;
+/* identical to box height, or 120% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color:#2E2F42;
+}
+.team-text {
+font-size: 16px;
+line-height: 1.5;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color:#434455;
+}
+/*---------------------------------------------------FOOTER-----------------------*/
+.footer {
+position: absolute;
+width: 1440px;
+height: 310px;
+left: 107px;
+top: 2299px;
+
+background-color: #2E2F42;
+
+}
+.footer-logo {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+}
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    /* or 150% */
+    letter-spacing: 0.02em;
+    color:#E7E9FC;
+}
