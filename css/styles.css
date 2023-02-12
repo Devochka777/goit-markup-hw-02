@@ -1,5 +1,7 @@
 
-
+:root{
+    --main-subtitle-color: #00ff00
+}
 
 body {
   font-family: "Raleway", sans-serif;
@@ -123,7 +125,7 @@ line-height: 1.2;
 /* identical to box height, or 120% */
 letter-spacing: 0.02em;
 /* NAVY BLUE */
-color:#2E2F42;
+color:var(--main-subtitle-color);
 }
 .peculiarities-text {
 
@@ -148,7 +150,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 /* NAVY BLUE */
-color:#2E2F42;
+color:var(--main-subtitle-color);
 }
 
 .boing-list {
@@ -169,7 +171,7 @@ line-height: 1.11;
 
 /* NAVY BLUE */
 
-color:#2E2F42;
+color:var(--main-subtitle-color);
 }
 .team-list {
 }
@@ -187,7 +189,7 @@ line-height: 1.2;
 
 /* NAVY BLUE */
 
-color:#2E2F42;
+color:var(--main-subtitle-color);
 }
 .team-text {
 font-size: 16px;
