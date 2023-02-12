@@ -1,6 +1,8 @@
 
 :root{
-    --main-subtitle-color: #00ff00
+    --main-subtitle-color: #2E2F42;
+    --main-btn-color:#ffffff;
+    --main-text-color:#434455;
 }
 
 body {
@@ -99,7 +101,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.04em;
 
-color:#FFFFFF;
+color:var(--main-btn-color);
 }
 .btn:is(:hover,:focus)
 {
@@ -134,7 +136,7 @@ line-height: 1.5;
 /* or 150% */
 letter-spacing: 0.02em;
 /* SLATE */
-color:#434455;
+color:var(--main-text-color);
 }
 /*------------------------------------------BOING-----------------------*/
 .boing{
@@ -201,7 +203,7 @@ letter-spacing: 0.02em;
 
 /* SLATE */
 
-color:#434455;
+color:var(--main-text-color);
 }
 /*---------------------------------------------------FOOTER-----------------------*/
 .footer {
