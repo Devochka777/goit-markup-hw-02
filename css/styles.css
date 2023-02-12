@@ -51,7 +51,7 @@ color: #434455;
 }
 .header-adress:is(:hover,:focus)
 {
-    color: #404BBF;
+    color: #40bf79;
 }
 
 .header-tel {
