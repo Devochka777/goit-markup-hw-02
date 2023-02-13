@@ -39,6 +39,9 @@ padding: 0px;
 }
 .header-list .header-link:hover,
 .header-list .header-link:focus {color:#404BBF;}
+.list{
+    list-style: none;
+}
 
     
 
