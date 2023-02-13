@@ -10,8 +10,22 @@ body {
   font-family: "Roboto", sans-serif;
   background: #E5E5E5;
 }
+.text{
+    font-size: 16px;
+    line-height: 1.5;
+    /* or 150% */
+    letter-spacing: 0.02em;
+}
 .subtitle{
-
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.name{
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;  
 }
 
 /*----------------------------------------------------------HEADER-------------*/
@@ -42,8 +56,6 @@ padding: 0px;
 .list{
     list-style: none;
 }
-
-    
 
 .header-contacts {
 }
@@ -127,37 +139,18 @@ color:var(--main-btn-color);
     
 }
 .peculiarities-subtitle {
-
-font-size: 20px;
-line-height: 1.2;
-/* identical to box height, or 120% */
-letter-spacing: 0.02em;
-/* NAVY BLUE */
 color:var(--main-subtitle-color);
 }
-.peculiarities-text {
 
-font-size: 16px;
-line-height: 1.5;
-/* or 150% */
-letter-spacing: 0.02em;
-/* SLATE */
+.peculiarities-text {
 color:var(--main-text-color);
 }
 /*------------------------------------------BOING-----------------------*/
 .boing{
 
 }
+
 .boing-subtitle {
-
-font-size: 36px;
-line-height: 1.11;
-/* identical to box height, or 111% */
-
-
-letter-spacing: 0.02em;
-text-transform: capitalize;
-/* NAVY BLUE */
 color:var(--main-subtitle-color);
 }
 
@@ -170,10 +163,6 @@ color:var(--main-subtitle-color);
 
 }
 .team-subtitle {
-font-size: 36px;
-line-height: 1.11;
-/* identical to box height, or 111% */
-
 color:var(--main-subtitle-color);
 }
 
@@ -184,27 +173,12 @@ color:var(--main-subtitle-color);
 
 .team-foto {
 }
+
 .team-surname {
-font-size: 20px;
-line-height: 1.2;
-/* identical to box height, or 120% */
-
-
-
-/* NAVY BLUE */
-
 color:var(--main-subtitle-color);
 }
+
 .team-text {
-font-size: 16px;
-line-height: 1.5;
-/* identical to box height, or 150% */
-
-
-letter-spacing: 0.02em;
-
-/* SLATE */
-
 color:var(--main-text-color);
 }
 /*---------------------------------------------------FOOTER-----------------------*/
@@ -212,11 +186,9 @@ color:var(--main-text-color);
 position: absolute;
 width: 1440px;
 height: 310px;
-
-
 background-color: #2E2F42;
-
 }
+
 .footer-logo {
 display: flex;
 flex-direction: row;
@@ -224,9 +196,5 @@ align-items: flex-start;
 padding: 0px;
 }
 .footer-text {
-    font-size: 16px;
-    line-height: 1.5;
-    /* or 150% */
-    letter-spacing: 0.02em;
     color:#E7E9FC;
 }
