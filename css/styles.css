@@ -216,7 +216,48 @@ padding: 0px;
     color: #4D5AE5;  
 }
 /*----------------------------------------Portfolio----------------------*/
+.button-all{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 24px;
+
+width: 69px;
+height: 48px;
+background: #404BBF;
+color: #FFFFFF;
+}
+.button-all{
+    cursor:pointer  
+}
+
+.button-web{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+
+width: 116px;
+height: 48px;
+
+/* CLOUD */
+
+background: #F4F4FD;
+color: #4D5AE5;
+}
+.button-app{
+
+}
+.button-design{
+
+}
+.button-Marketing{
+    
+}
+
 .button-list {
+    
 }
 .list {
 }
