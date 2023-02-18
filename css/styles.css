@@ -227,9 +227,15 @@ height: 48px;
 background: #404BBF;
 color: #FFFFFF;
 }
-.button-all{
-    cursor:pointer  
+
+.button-all:is(:hover,:focus)
+{
+    background: #404BBF;
 }
+
+.button-all {
+    cursor:pointer
+}   
 
 .button-web{
 display: flex;
