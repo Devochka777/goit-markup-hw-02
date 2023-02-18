@@ -216,8 +216,8 @@ padding: 0px;
     color: #4D5AE5;  
 }
 /*----------------------------------------Portfolio----------------------*/
-.botton-portfolio{
-    display: flex;
+.botton{
+display: flex;
 flex-direction: row;
 align-items: flex-start;
 padding: 12px 24px;
