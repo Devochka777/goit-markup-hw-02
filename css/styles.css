@@ -216,7 +216,7 @@ padding: 0px;
     color: #4D5AE5;  
 }
 /*----------------------------------------Portfolio----------------------*/
-.botton-all{
+.button-all{
 display: flex;
 flex-direction: row;
 align-items: flex-start;
@@ -227,11 +227,11 @@ height: 48px;
 background: #404BBF;
 color: #FFFFFF;
 }
-.botton-all{
+.button-all{
     cursor:pointer  
 }
 
-.botton-web{
+.button-web{
 display: flex;
 flex-direction: row;
 justify-content: center;
