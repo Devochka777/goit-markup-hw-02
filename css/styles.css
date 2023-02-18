@@ -43,9 +43,11 @@ padding: 0px;
 p {
     color: #4D5AE5;
 }
-p span {
+p span{
     color: #2E2F42;
 }
+    
+
 
 .header-list .header-link 
 {
@@ -203,4 +205,10 @@ padding: 0px;
 }
 .footer-text {
     color:#E7E9FC;
+}
+p {
+    color: #4D5AE5;
+}
+p span{
+    color: #2E2F42;
 }
