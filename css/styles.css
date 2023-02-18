@@ -216,7 +216,7 @@ padding: 0px;
     color: #4D5AE5;  
 }
 /*----------------------------------------Portfolio----------------------*/
-.botton{
+.botton-all{
 display: flex;
 flex-direction: row;
 align-items: flex-start;
@@ -227,7 +227,7 @@ height: 48px;
 background: #404BBF;
 color: #FFFFFF;
 }
-.botton {
+.botton-all{
     cursor:pointer  
 }
 
