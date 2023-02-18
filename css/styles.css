@@ -216,7 +216,7 @@ padding: 0px;
     color: #4D5AE5;  
 }
 /*----------------------------------------Portfolio----------------------*/
-.button-all{
+.btn-all{
 display: flex;
 flex-direction: row;
 align-items: flex-start;
@@ -228,12 +228,12 @@ background: #404BBF;
 color: #FFFFFF;
 }
 
-.button-all:is(:hover,:focus)
+.btn-all:is(:hover,:focus)
 {
     background: #404BBF;
 }
 
-.button-all {
+.btn-all {
     cursor:pointer
 }   
 
@@ -258,7 +258,7 @@ color: #4D5AE5;
 .button-design{
 
 }
-.button-Marketing{
+.button-marketing{
     
 }
 
