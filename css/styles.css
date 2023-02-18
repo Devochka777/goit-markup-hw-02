@@ -114,8 +114,6 @@ color:#ffffff;
     align-items: flex-start;
     padding: 16px 32px;
     gap: 10px;
-    
-   
 
 background: #4D5AE5;
 
@@ -123,7 +121,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 /* identical to box height, or 150% */
 
 display: flex;
@@ -262,8 +260,27 @@ color: #4D5AE5;
     
 }
 
-.button-list {
-    
+.button-list-all {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 24px;
+
+width: 69px;
+height: 48px;
+background: #404BBF;
+color: #FFFFFF;
+}
+
+.button-list-all:is(:hover,:focus)
+{
+    background: #4D5AE5;
+}
+
+.button-list-all {
+    cursor:pointer
+}   
+
 }
 .list {
 }
