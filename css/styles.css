@@ -226,7 +226,25 @@ width: 69px;
 height: 48px;
 background: #404BBF;
 color: #FFFFFF;
-cursor:pointer
+}
+.botton {
+    cursor:pointer  
+}
+
+.botton-web{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+
+width: 116px;
+height: 48px;
+
+/* CLOUD */
+
+background: #F4F4FD;
+color: #4D5AE5;
 }
 .button-list {
     background: #F4F4FD;
