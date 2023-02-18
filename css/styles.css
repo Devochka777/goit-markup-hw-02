@@ -216,39 +216,27 @@ padding: 0px;
     color: #4D5AE5;  
 }
 /*----------------------------------------Portfolio----------------------*/
-
-.btn {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;
-    
-   
-
-background: #4D5AE5;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
-
+.button-all{
 display: flex;
-align-items: center;
-letter-spacing: 0.04em;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 24px;
 
-color:var(--main-btn-color);
+width: 69px;
+height: 48px;
+background: #404BBF;
+color: #FFFFFF;
 }
-.btn:is(:hover,:focus)
+
+.button-all:is(:hover,:focus)
 {
-    background: #404BBF;
+    background: #4D5AE5;
 }
 
-.btn {
+.button-all {
     cursor:pointer
 }   
+
 .button-web{
 display: flex;
 flex-direction: row;
