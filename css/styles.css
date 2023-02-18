@@ -224,12 +224,12 @@ padding: 12px 24px;
 
 width: 69px;
 height: 48px;
-
-/* OCEAN */
-
 background: #404BBF;
+color: #FFFFFF;
+cursor:pointer
 }
 .button-list {
+    background: #F4F4FD;
 }
 .list {
 }
