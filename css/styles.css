@@ -40,13 +40,13 @@ flex-direction: row;
 align-items: flex-start;
 padding: 0px;
 }
-p {
-    color: #4D5AE5;
-}
-p span{
+.header-logo{
     color: #2E2F42;
 }
-    
+.logo-accent{
+    color: #4D5AE5;
+}
+
 
 
 .header-list .header-link 
@@ -206,10 +206,9 @@ padding: 0px;
 .footer-text {
     color:#E7E9FC;
 }
-.footer-logo-text
-p {
-    color: #4D5AE5;
+.footer-logo{
+    color: #F4F4FD; 
 }
-p span {
-    color: #F4F4FD;
+.logo-accent{
+    color: #4D5AE5;  
 }
