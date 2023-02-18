@@ -40,10 +40,10 @@ flex-direction: row;
 align-items: flex-start;
 padding: 0px;
 }
-p {
+.logo-text-first{
     color: #4D5AE5;
 }
-p span{
+.logo-text-second{
     color: #2E2F42;
 }
 
