@@ -216,6 +216,19 @@ padding: 0px;
     color: #4D5AE5;  
 }
 /*----------------------------------------Portfolio----------------------*/
+.btn-portfolio{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 24px;
+
+width: 69px;
+height: 48px;
+
+/* OCEAN */
+
+background: #404BBF;
+}
 .button-list {
 }
 .list {
