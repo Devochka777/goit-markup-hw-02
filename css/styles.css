@@ -251,7 +251,9 @@ height: 48px;
 background: #F4F4FD;
 color: #4D5AE5;
 }
-.button-app{
+.button-button-app{
+    background: #F4F4FD;
+    color: #4D5AE5;
 
 }
 .button-design{
@@ -261,9 +263,10 @@ color: #4D5AE5;
     
 }
 
-.button{
+.button-list {
     background: #F4F4FD;
-    color: #4D5AE5; 
+    color: #4D5AE5;
+ 
 }
 .list {
 }
