@@ -250,17 +250,8 @@ color: #4D5AE5;
 .gallery-item {
 }
 .gallery-subtitle {
-font-size: 20px;
-line-height: 1.2;
-/* identical to box height, or 120% */
-
-letter-spacing: 0.02em;
-
-/* NAVY BLUE */
-
-color: #2E2F42;
+color: var(--main-subtitle-color);
 }
 .gallery-text {
-    color: var(--main-text-color);
-   
+color: var(--main-text-color);
 }
