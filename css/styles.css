@@ -215,7 +215,10 @@ padding: 0px;
     color: #4D5AE5;  
 }
 /*----------------------------------------Portfolio----------------------*/
-
+.button{
+    background: #F4F4FD;
+    color: #4D5AE5;   
+}
 .button-web-site{
 display: flex;
 flex-direction: row;
