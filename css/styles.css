@@ -226,31 +226,29 @@ padding: 0px;
     padding: 12px 24px;
     background: #F4F4FD;
     
-    
     font-size: 16px;
     line-height: 1.5;
-    /* identical to box height, or 150% */
     
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    
-    /* IRIS */
     color: #4D5AE5; 
 }
+
 .is-active {
     background: #404BBF;
     color: #FFFFFF;
 }
-
 .gallery-list {
 }
 .gallery-item {
 }
+
 .gallery-subtitle {
 color: var(--main-subtitle-color);
 }
+
 .gallery-text {
 color: var(--main-text-color);
 }
