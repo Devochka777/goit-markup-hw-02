@@ -220,7 +220,10 @@ padding: 0px;
 }
 .list {
 }
-.filter-item.filter-btn {
+.filter-item{
+    
+}
+.filter-btn {
     display: flex;
     flex-direction: row;
     padding: 12px 24px;
