@@ -261,13 +261,6 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .gallery-text {
-    font-size: 16px;
-line-height: 1.5;
-/* identical to box height, or 150% */
-
-letter-spacing: 0.02em;
-
-/* SLATE */
-
-color: #434455;
+    color: var(--main-text-color);
+   
 }
