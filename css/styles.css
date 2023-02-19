@@ -239,7 +239,7 @@ letter-spacing: 0.04em;
 /* IRIS */
 color: #4D5AE5;
 }
-.is-active.button{
+.button.is-active{
 background: #404BBF;
 color: #FFFFFF;
 }
