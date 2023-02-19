@@ -239,6 +239,9 @@ letter-spacing: 0.04em;
 /* IRIS */
 color: #4D5AE5;
 }
+.button-accent{
+    background: #404BBF;
+}
 .gallery-list {
 }
 .gallery-item {
