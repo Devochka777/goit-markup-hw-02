@@ -246,7 +246,7 @@ padding: 0px;
 .is-active {
     cursor:pointer
 }
-.gallery-list .gfllery-link{
+.gallery-list .gfllery-item{
 font-size: 20px;
 line-height: 1.2;
 /* identical to box height, or 120% */
