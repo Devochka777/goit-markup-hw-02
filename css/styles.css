@@ -6,7 +6,7 @@
     --main-background-color:#2E2F42;
     --main-accent-color:#4D5AE5;
     --main-focus-color:#404BBF;
-    --main-advertising-color:#ffffff
+    --main-advertising-color:#ffffff;
     --second-logo-color:#F4F4FD;
     --second-text-color:#E7E9FC;
 
@@ -119,7 +119,7 @@ color:var(--main-text-color);
  
    
     background-color : var(--main-background-color);
-    color:var(--main-advertising-color);
+    color: var(--main-advertising-color);
 }
 
 
