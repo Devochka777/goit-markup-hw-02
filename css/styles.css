@@ -247,8 +247,13 @@ padding: 0px;
     cursor:pointer
 }
 
-.gallery-list {
+.gallery-list .gfllery-link:hover,
+.gallery-list .gfllery-link:focus
+
+{
+    color:var( --main-focus-color);
 }
+
 .gallery-item {
 }
 .gallery-subtitle {
