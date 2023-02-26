@@ -10,7 +10,6 @@
     --second-logo-color:#F4F4FD;
     --second-text-color:#E7E9FC;
 
-    
 }
 
 body {
@@ -119,7 +118,7 @@ color:var(--main-text-color);
  
    
     background-color : var(--main-background-color);
-    color: var(--main-advertising-color #ffffff);
+    color: #ffffff;
 }
 
 
@@ -177,7 +176,7 @@ color:var(--main-subtitle-color);
     background:var(--second-logo-color #F4F4FD);
 }
 .team-subtitle {
-color:var(--main-subtitle-color);
+color:#F4F4FD;
 }
 
 .team-list {
