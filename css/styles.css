@@ -256,8 +256,8 @@ padding: 0px;
     letter-spacing: 0.02em;
     color: var(--main-subtitle-color);
     }
-.gallery-subtitle .link:hover,
-.gallery-subtitle .link:focus
+.gallery-list .link:hover,
+.gallery-list .link:focus
 {
     color:var(--main-focus-color);
 }
