@@ -240,8 +240,8 @@ padding: 0px;
     background-color: var(--main-focus-color);
     color:var(--main-btn-color);
 }
-
-.filter-btn .is-active{
+.filter-btn .is-active
+{
     cursor:pointer
 }
 .gallery-list {
