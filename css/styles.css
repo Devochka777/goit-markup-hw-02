@@ -163,9 +163,7 @@ color:var(--main-subtitle-color);
 }
 /*--------------------------------------------------TEAM---------------------------*/
 .team{
-    
     background: #F4F4FD;
-
 }
 .team-subtitle {
 color:var(--main-subtitle-color);
@@ -188,9 +186,6 @@ color:var(--main-text-color);
 }
 /*---------------------------------------------------FOOTER-----------------------*/
 .footer {
-position: absolute;
-width: 1440px;
-height: 310px;
 background-color: #2E2F42;
 }
 
