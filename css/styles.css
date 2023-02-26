@@ -257,8 +257,8 @@ letter-spacing: 0.02em;
 
 color:var(--main-subtitle-color);
 }
-.gallery-list .gfllery-link:hover,
-.gallery-list .gfllery-link:focus
+.gallery-list .gfllery-item:hover,
+.gallery-list .gfllery-item:focus
 {
     color:var(--main-focus-color);
 }
