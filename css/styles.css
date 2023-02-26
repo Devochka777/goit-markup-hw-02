@@ -246,11 +246,21 @@ padding: 0px;
 .is-active {
     cursor:pointer
 }
+.gallery-list .gfllery-link{
+font-size: 20px;
+line-height: 1.2;
+/* identical to box height, or 120% */
 
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color:var(--main-subtitle-color);
+}
 .gallery-list .gfllery-link:hover,
 .gallery-list .gfllery-link:focus
 {
-    color:var( --main-focus-color);
+    color:var(--main-focus-color);
 }
 
 .gallery-item {
