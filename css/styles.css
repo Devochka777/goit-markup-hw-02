@@ -4,6 +4,7 @@
     --main-btn-color:#ffffff;
     --main-text-color:#434455;
     --main-background-color:#2E2F42;
+    --second-background-color: #F4F4FD;
     --main-accent-color:#4D5AE5;
     --main-focus-color:#404BBF;
     --main-advertising-color:#ffffff;
@@ -173,10 +174,10 @@ color:var(--main-subtitle-color);
 }
 /*--------------------------------------------------TEAM---------------------------*/
 .team{
-    background: #F4F4FD;
+    background:var( --second-background-color);
 }
 .team-subtitle {
-color:#F4F4FD;
+color:var(--main-subtitle-color);
 }
 
 .team-list {
