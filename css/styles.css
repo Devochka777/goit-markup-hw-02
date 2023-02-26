@@ -173,7 +173,7 @@ color:var(--main-subtitle-color);
 }
 /*--------------------------------------------------TEAM---------------------------*/
 .team{
-    background:var(--second-logo-color #F4F4FD);
+    background: #F4F4FD;
 }
 .team-subtitle {
 color:#F4F4FD;
