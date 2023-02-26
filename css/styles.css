@@ -240,6 +240,10 @@ padding: 0px;
     background-color: var(--main-focus-color);
     color:var(--main-btn-color);
 }
+.is-active:is(:hover,:focus)
+{  
+    background-color: var(--main-focus-color);
+}
 .filter-btn .is-active{
     cursor:pointer
 }
