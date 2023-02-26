@@ -105,6 +105,11 @@ color:var(--main-text-color);
     /* or 107% */
     text-align: center;
     letter-spacing: 0.02em;
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
     background: #2E2F42;
     color:#ffffff;
 }
