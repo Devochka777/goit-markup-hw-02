@@ -244,7 +244,7 @@ padding: 0px;
     color: #4D5AE5; 
 }
 .is-active {
-    background:var(main-focus-color);
+    background:#404BBF;
     color:var(--main-btn-color);
 }
 
