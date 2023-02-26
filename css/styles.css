@@ -246,22 +246,6 @@ padding: 0px;
 .is-active {
     cursor:pointer
 }
-.gallery-list .gfllery-item{
-font-size: 20px;
-line-height: 1.2;
-/* identical to box height, or 120% */
-
-letter-spacing: 0.02em;
-
-/* NAVY BLUE */
-
-color:var(--main-subtitle-color);
-}
-.gallery-list .gfllery-item:hover,
-.gallery-list .gfllery-item:focus
-{
-    color:var(--main-focus-color);
-}
 
 .gallery-item {
 }
@@ -272,6 +256,12 @@ color:var(--main-subtitle-color);
     letter-spacing: 0.02em;
     color: var(--main-subtitle-color);
     }
+.gallery-subtitle .link:hover,
+.gallery-subtitle .link:focus
+{
+    color:var(--main-focus-color);
+}
+
 .gallery-text {
     font-size: 16px;
     line-height: 1.5;
