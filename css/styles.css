@@ -249,7 +249,6 @@ padding: 0px;
 
 .gallery-list .gfllery-link:hover,
 .gallery-list .gfllery-link:focus
-
 {
     color:var( --main-focus-color);
 }
