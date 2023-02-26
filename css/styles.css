@@ -46,7 +46,7 @@ align-items: flex-start;
 padding: 0px;
 }
 .header-logo{
-    color: #2E2F42;
+    color:var(--main-subtitle-color);
 }
 .logo-accent{
     color: #4D5AE5;
@@ -64,7 +64,7 @@ padding: 0px;
     /* identical to box height, or 150% */
     letter-spacing: 0.02em;
     /* NAVY BLUE */
-    color: #2E2F42;
+    color:var(--main-subtitle-color);
 }
 .header-list .header-link:hover,
 .header-list .header-link:focus {color:#404BBF;}
@@ -76,9 +76,7 @@ padding: 0px;
 }
 
 .header-adress {
-font-family: 'Roboto';
 font-style: normal;
-font-weight: 400;
 line-height: 1.5;
 /* identical to box height, or 150% */
 letter-spacing: 0.02em;
@@ -106,6 +104,7 @@ line-height: 1.07;
 /* or 107% */
 
 letter-spacing: 0.02em;
+background: #2E2F42;
 color:#ffffff;
 }
 
