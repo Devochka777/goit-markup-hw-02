@@ -119,7 +119,7 @@ color:var(--main-text-color);
  
    
     background-color : var(--main-background-color);
-    color: var(--main-advertising-color);
+    color: var(--main-advertising-color #ffffff);
 }
 
 
@@ -174,7 +174,7 @@ color:var(--main-subtitle-color);
 }
 /*--------------------------------------------------TEAM---------------------------*/
 .team{
-    background:var(--second-logo-color);
+    background: var(--second-logo-color #F4F4FD);
 }
 .team-subtitle {
 color:var(--main-subtitle-color);
