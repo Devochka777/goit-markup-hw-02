@@ -3,6 +3,7 @@
     --main-subtitle-color: #2E2F42;
     --main-btn-color:#ffffff;
     --main-text-color:#434455;
+    --main-background-color:#2E2F42;
 }
 
 body {
@@ -107,7 +108,7 @@ color:var(--main-text-color);
     letter-spacing: 0.02em;
  
    
-    background: #2E2F42;
+ background-color : var(--main-background-color);
     color:#ffffff;
 }
 
@@ -186,7 +187,7 @@ color:var(--main-text-color);
 }
 /*---------------------------------------------------FOOTER-----------------------*/
 .footer {
-background-color: #2E2F42;
+background-color: var(--main-background-color);
 }
 
 .footer-logo {
