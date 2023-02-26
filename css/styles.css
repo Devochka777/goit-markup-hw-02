@@ -106,10 +106,7 @@ color:var(--main-text-color);
     text-align: center;
     letter-spacing: 0.02em;
  
-    width: 1440px;
-    height: 600px;
-    left: 0px;
-    top: 72px;
+   
     background: #2E2F42;
     color:#ffffff;
 }
