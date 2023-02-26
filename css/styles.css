@@ -6,9 +6,10 @@
 }
 
 body {
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
-  background: #E5E5E5;
+  font-family: "Raleway","Roboto", sans-serif;
+  background: #ffffff;
+  color: #434455;
+  font-size: 16px;
 }
 .text{
     font-size: 16px;
@@ -35,6 +36,10 @@ body {
 }
 
 .header-logo {
+font-weight: 800;
+font-size: 18px;
+line-height: 13.3;
+/* identical to box height, or 133% */
 display: flex;
 flex-direction: row;
 align-items: flex-start;
@@ -221,7 +226,7 @@ padding: 0px;
 .list {
 }
 .filter-item{
-    
+
 }
 .filter-btn {
     display: flex;
