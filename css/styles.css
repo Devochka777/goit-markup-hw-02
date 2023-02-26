@@ -228,7 +228,7 @@ padding: 0px;
     display: flex;
     flex-direction: row;
     padding: 12px 24px;
-    background: #F4F4FD;
+    background-color: var( --second-background-color);
     
     
     font-size: 16px;
@@ -241,7 +241,7 @@ padding: 0px;
     letter-spacing: 0.04em;
     
     /* IRIS */
-    color: #4D5AE5; 
+    color:var(--main-accent-color); 
 }
 .is-active {
     background-color: var(--main-focus-color);
