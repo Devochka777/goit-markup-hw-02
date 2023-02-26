@@ -257,8 +257,16 @@ padding: 0px;
 .gallery-item {
 }
 .gallery-subtitle {
-color: var(--main-subtitle-color);
-}
+    font-size: 20px;
+    line-height: 1.2;
+    /* identical to box height, or 120% */
+    letter-spacing: 0.02em;
+    color: var(--main-subtitle-color);
+    }
 .gallery-text {
-color: var(--main-text-color);
-}
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    }
