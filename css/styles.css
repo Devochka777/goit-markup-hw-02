@@ -137,7 +137,7 @@ color:var(--main-text-color);
     }
 .btn:is(:hover,:focus)
 {
-    background: #404BBF;
+    background-color: var(--main-focus-color);
 }
 
 .btn {
@@ -244,7 +244,7 @@ padding: 0px;
     color: #4D5AE5; 
 }
 .is-active {
-    background:#404BBF;
+    background-color: var(--main-focus-color);
     color:var(--main-btn-color);
 }
 
