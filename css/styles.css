@@ -44,7 +44,7 @@ body {
 }
 
 .header-logo {
-font-family:"Raleway", sans-serif;
+font-family: "Raleway", sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 13.3;
@@ -248,6 +248,9 @@ padding: 0px;
 .is-active {
     cursor:pointer
 }
+.gallery-subtitle {
+    cursor:pointer
+}
 
 .gallery-item {
 }
@@ -265,7 +268,6 @@ padding: 0px;
 }
 
 .gallery-text {
-    font-family: 'Roboto',sans-serif;
     font-size: 16px;
     line-height: 1.5;
     /* identical to box height, or 150% */
