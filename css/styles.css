@@ -58,6 +58,7 @@ padding: 0px;
     color:var(--main-subtitle-color);
 }
 .logo-accent{
+    font-family: "Raleway", sans-serif;
     color:var(--main-accent-color);
 }
 .link{
