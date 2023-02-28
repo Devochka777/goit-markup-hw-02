@@ -118,6 +118,10 @@ color:var(--main-text-color);
 }
 
 /*--------------------------------COMMERCIAL------------------------------*/
+.commercial{
+    background-color : var(--main-background-color);
+}
+
 .commercial {
     font-style: normal;
     font-weight: 700;
@@ -126,16 +130,14 @@ color:var(--main-text-color);
     /* or 107% */
     text-align: center;
     letter-spacing: 0.02em;
- 
-   
-    background-color : var(--main-background-color);
+
     color:var(--main-commercial-color)
 }
 
 
 .btn {
     padding: 16px 32px;   
-    background: #4D5AE5;
+    background-color: var(--main-accent-color);
 
     font-family: 'Roboto',sans-serif;
     font-weight: 500;
@@ -212,10 +214,7 @@ background-color: var(--main-background-color);
 
 .footer-logo {
 font-family: "Raleway", sans-serif;
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
+
 }
 .footer-text {
     color:var(--second-text-color);
