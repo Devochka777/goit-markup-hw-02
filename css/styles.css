@@ -60,7 +60,6 @@ padding: 0px;
     color:var(--main-subtitle-color);
 }
 .logo-accent{
-    font-family: "Raleway", sans-serif;
     color:var(--main-accent-color);
 }
 .link{
@@ -110,7 +109,13 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 /* SLATE */
 color:var(--main-text-color);
+color:var( --main-focus-color);
 }
+.header-tel:is(:hover,:focus)
+{
+    color:var( --main-focus-color);
+}
+
 /*--------------------------------COMMERCIAL------------------------------*/
 .commercial {
     font-style: normal;
