@@ -2,6 +2,7 @@
 :root{
     --main-subtitle-color: #2E2F42;
     --main-btn-color:#ffffff;
+    --main-body-color:#ffffff;
     --main-text-color:#434455;
     --main-background-color:#2E2F42;
     --second-background-color: #F4F4FD;
@@ -15,8 +16,8 @@
 
 body {
   font-family:"Roboto", sans-serif;
-  background: #ffffff;
-  color: #434455;
+  background-color: var(--main-body-color);
+  color: var(--main-text-color);
   font-size: 16px;
 }
 .text{
@@ -53,6 +54,15 @@ display: flex;
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
+
+
+
+position: absolute;
+width: 115px;
+height: 24px;
+left: 156px;
+top: 24px;
+
 }
 .header-logo{
     color:var(--main-subtitle-color);
